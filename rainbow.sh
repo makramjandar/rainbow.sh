@@ -8,7 +8,7 @@
 #  echo "Coming next: $vargreen"
 #
 
-__RAINBOWPALETTE="1"
+__RAINBOWPALETTE="0"
 
 function __colortext()
 {
