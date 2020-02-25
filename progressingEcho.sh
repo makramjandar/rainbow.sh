@@ -1,11 +1,4 @@
-
-#  Copyright 2013 Manuel Gutierrez <dhunterkde@gmail.com>
-#  https://github.com/xr09/rainbow.sh
-#  Bash helper functions to put colors on your scripts
-#
-#  Usage example:
-#  vargreen=$(egre "Grass is green")
-#  echo "Coming next: $vargreen"
+#!/bin/bash
 
 function ct() { echo -e " \e[0;$2m$1\e[0m" }
 function cg() { echo $(ct "$1" "32") }
